@@ -1,19 +1,19 @@
 {
-  "name": "3d",
+  "name": "threejs-journey-exercise",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "vite build"
   },
   "devDependencies": {
-    "@types/three": "^0.168.0",
-    "typescript": "^5.5.3",
-    "vite": "^5.4.3"
+    "vite": "^5.3.3",
+    "vite-plugin-restart": "^0.4.1"
   },
   "dependencies": {
-    "three": "^0.168.0"
+    "dom-to-image": "^2.6.0",
+    "html2canvas": "^1.4.1",
+    "three": "^0.166.1"
   }
 }
